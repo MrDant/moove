@@ -1,0 +1,29 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "dependencies": {
+    "@iconify-json/lucide": "^1.2.32",
+    "@iconify-json/simple-icons": "^1.2.29",
+    "@nuxt/ui": "^3.0.1",
+    "dom-to-image": "^2.6.0",
+    "nuxt": "^3.16.1",
+    "recordrtc": "^5.6.2",
+    "sass-embedded": "^1.86.0"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^1.2.0",
+    "eslint": "^9.23.0",
+    "typescript": "^5.8.2"
+  },
+  "packageManager": "pnpm@9.14.4+sha512.c8180b3fbe4e4bca02c94234717896b5529740a6cbadf19fa78254270403ea2f27d4e1d46a08a0f56c89b63dc8ebfd3ee53326da720273794e6200fcf0d184ab"
+}
